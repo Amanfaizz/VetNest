@@ -15,14 +15,15 @@
     justify-content: space-between;
 }
 
+
 .back-link {
-    color: #687582;
-    font-size: 0.9rem;
-    font-weight: 500;
+    background: #e77b48;
+    color: white;
 }
 
 .back-link:hover {
-    color: #e77b48;
+    background: #d96938;
+    transform: translateY(-2px);
 }
 
 .auth-main {

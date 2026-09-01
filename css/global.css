@@ -25,6 +25,19 @@ a {
     transition: 0.2s ease;
 }
 
+.back-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
 .container {
     width: min(1120px, 90%);
     margin: 0 auto;
@@ -76,23 +89,23 @@ a {
     cursor: pointer;
 }
 
-.button-primary {
+.button-cta {
     background: #e77b48;
     color: white;
 }
 
-.button-primary:hover {
+.button-cta:hover {
     background: #d96938;
     transform: translateY(-2px);
 }
 
-.button-secondary {
+.button-login {
     background: #ffffff;
     border-color: #e4e8ec;
     color: #34404b;
 }
 
-.button-secondary:hover {
+.button-login:hover {
     border-color: #e77b48;
     color: #e77b48;
 }
